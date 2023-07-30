@@ -1815,3 +1815,9 @@ end
 	AtlasLoot_TableNames["EmptyTable"] = { AL["Select a Loot Table..."], "Menu" };
 	AtlasLoot_TableNames["EmptyInstance"] = { "AtlasLoot", "AtlasLootFallback" };
 	AtlasLoot_TableNames["AtlasLootFallback"] = { "AtlasLoot", "AtlasLootFallback" };
+	
+  --Custom Data for Northrend
+	AtlasLoot_TableNames["UlduarLegendaries"] = { AL["Legendary Items"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Naxx80Legendaries"] = { AL["Legendary Items"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderLegendaries_A"] = { AL["Legendary Items"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderLegendaries_H"] = { AL["Legendary Items"], "AtlasLootWotLK" };

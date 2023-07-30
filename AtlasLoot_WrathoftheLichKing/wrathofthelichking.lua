@@ -3797,7 +3797,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "Naxx80Sapphiron25Man";
 		Next = "Naxx80Trash25Man";
 	};
-
+	
 	AtlasLoot_Data["Naxx80Trash"] = {
 		{ 1, 39467, "", "=q4=Minion Bracers", "=ds=#s8#, #a4#", "", "1%"};
 		{ 2, 39472, "", "=q4=Chain of Latent Energies", "=ds=#s2#", "", "1%"};
@@ -3817,8 +3817,20 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, 40407, "", "=q4=Silent Crusader", "=ds=#h1#, #w10#", "", "1%"};
 		{ 7, 40406, "", "=q4=Inevitable Defeat", "=ds=#h2#, #w6#", "", "1%"};
 		Prev = "Naxx80KelThuzad25Man";
+		Next = "Naxx80Legendaries";
 	};
 
+	AtlasLoot_Data["Naxx80Legendaries"] = {
+		{ 1, 57100, "", "=q5=Fist of the Fallen Divinity", "=ds=#h3#, #w13#", "", ""};
+		{ 2, 57000, "", "=q5=Garona's Legacy", "=ds=#h3#, #w4#", "", ""};
+		{ 3, 57021, "", "=q5=Felo'Melorn", "=ds=#h3#, #w10#", "", ""};
+		{ 4, 57053, "", "=q5=Hacker of Wind's Fury", "=ds=#h3#, #w1#", "", ""};
+		{ 5, 57101, "", "=q5=Gorehowl", "=ds=#h2#, #w1#", "", ""};
+		{ 6, 57102, "", "=q5=Light's Justice", "=ds=#h3#, #w6#", "", ""};
+		{ 7, 57075, "", "=q5=Greatstaff of Malorne", "=ds=#w7#", "", ""};
+		{ 8, 57020, "", "=q5=Black Bow of Marksmanship", "=ds=#w2#", "", ""};
+		Prev = "Naxx80Trash25Man";
+	};
 		------------------------
 		--- Obsidian Sanctum ---
 		------------------------
@@ -4618,6 +4630,20 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 45105, "", "=q4=Pattern: Savior's Slippers", "=ds=#p8# (450)"};
 		{ 19, 45103, "", "=q4=Pattern: Spellslinger's Slippers", "=ds=#p8# (450)"};
 		{ 30, 45087, "", "=q3=Runed Orb", "=ds=#e8#"};
+		Prev = "UlduarTrash25Man";
+		Next = "UlduarLegendaries";
+	};
+
+	AtlasLoot_Data["UlduarLegendaries"] = {
+		{ 1, 57001, "", "=q5=The Kingsslayer", "=ds=#h3#, #w4#", "", ""};
+		{ 2, 57078, "", "=q5=Chronofused Shanker", "=ds=#h3#, #w4#", "", ""};
+		{ 3, 57105, "", "=q5=Greatmace of the Fallen God", "=ds=#h3#, #w6#", "", ""};
+		{ 4, 57106, "", "=q5=Hammer of Molten Power", "=ds=#h3#, #w6#", "", ""};
+		{ 5, 57103, "", "=q5=Eternal Torch of Shockwave", "=ds=#h3#, #w6#", "", ""};
+		{ 6, 57009, "", "=q5=Skullcrusher, Executioner's Greataxe", "=ds=#h2#, #w1#", "", ""};
+		{ 7, 57104, "", "=q5=Staff of Ferocious Frenzy", "=ds=#w9#", "", ""};
+		{ 8, 57011, "", "=q5=Death's Head", "=ds=#w3#", "", ""};
+		Prev = "UlduarPatterns";
 	};
 
 		-----------------------------
@@ -5169,6 +5195,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 47657, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)"};
 		{ 30, 47556, "", "=q3=Crusader Orb", "=ds=#e8#"};
 		Prev = "TrialoftheCrusaderTributeHEROIC_A";
+		Next = "TrialoftheCrusaderLegendaries_A";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderPatterns_H"] = {
@@ -5192,6 +5219,31 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 47636, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)"};
 		{ 30, 47556, "", "=q3=Crusader Orb", "=ds=#e8#"};
 		Prev = "TrialoftheCrusaderTributeHEROIC_H";
+		Next = "TrialoftheCrusaderLegendaries_H";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderLegendaries_A"] = {
+		{ 1, 57107, "", "=q5=Fel-Infused Shard", "=ds=#h3#, #w4#", "", ""};
+		{ 2, 57108, "", "=q5=Remnant of Chaos", "=ds=#h3#, #w4#", "", ""};
+		{ 3, 57109, "", "=q5=Silverwind Defender", "=ds=#h3#, #w6#", "", ""};
+		{ 4, 57110, "", "=q5=Remorseless", "=ds=#h3#, #w6#", "", ""};
+		{ 5, 57111, "", "=q5=Kal'ba, Gift of Karabor", "=ds=#h3#, #w6#", "", ""};
+		{ 6, 57114, "", "=q5=Edge of Unleashed Storms", "=ds=#h2#, #w1#", "", ""};
+		{ 7, 57112, "", "=q5=Arcanic Fury", "=ds=#w9#", "", ""};
+		{ 8, 57113, "", "=q5=Negotiator 5500", "=ds=#w3#", "", ""};
+		Prev = "TrialoftheCrusaderPatterns_A";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderLegendaries_H"] = {
+		{ 1, 57107, "", "=q5=Fel-Infused Shard", "=ds=#h3#, #w4#", "", ""};
+		{ 2, 57108, "", "=q5=Remnant of Chaos", "=ds=#h3#, #w4#", "", ""};
+		{ 3, 57109, "", "=q5=Silverwind Defender", "=ds=#h3#, #w6#", "", ""};
+		{ 4, 57110, "", "=q5=Remorseless", "=ds=#h3#, #w6#", "", ""};
+		{ 5, 57111, "", "=q5=Kal'ba, Gift of Karabor", "=ds=#h3#, #w6#", "", ""};
+		{ 6, 57114, "", "=q5=Edge of Unleashed Storms", "=ds=#h2#, #w1#", "", ""};
+		{ 7, 57112, "", "=q5=Arcanic Fury", "=ds=#w9#", "", ""};
+		{ 8, 57113, "", "=q5=Negotiator 5500", "=ds=#w3#", "", ""};
+		Prev = "TrialoftheCrusaderPatterns_H";
 	};
 
 		-----------------------------------

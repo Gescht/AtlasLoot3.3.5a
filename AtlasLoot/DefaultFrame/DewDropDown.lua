@@ -791,6 +791,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "UlduarYoggSaron" },
 		{ "", "UlduarTrash" },
 		{ "", "UlduarPatterns" },
+		{ "", "UlduarLegendaries" },
 	},
 	["UtgardeKeep"] = {
 		{ "", "UtgardeKeepKeleseth" },
@@ -836,6 +837,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_A" },
 		{ AL["Tribute Run"], "TrialoftheCrusaderTributeHEROIC_A" },
 		{ AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_A" },
+		{ AL["Legendary Items"], "TrialoftheCrusaderLegendaries25Man_A" },
 	},
 	["VaultofArchavon_A"] = {
 		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon1" },
@@ -860,6 +862,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["Naxx80Sapphiron"][1].." ("..AL["Frostwyrm Lair"]..")", "Naxx80Sapphiron" },
 		{ AtlasLoot_TableNames["Naxx80KelThuzad"][1].." ("..AL["Frostwyrm Lair"]..")", "Naxx80KelThuzad" },
 		{ "", "Naxx80Trash" },
+		{ AL["Legendary Items"], "Naxx80Legendaries" },
 	},
 	["TheNexus"] = {
 		{ "", "TheNexusKolurgStoutbeardHEROIC"},
