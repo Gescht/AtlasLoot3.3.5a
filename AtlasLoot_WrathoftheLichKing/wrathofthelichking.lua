@@ -5225,8 +5225,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["TrialoftheCrusaderLegendaries_A"] = {
 		{ 1, 57107, "", "=q5=Fel-Infused Shard", "=ds=#h3#, #w4#", "", ""};
 		{ 2, 57108, "", "=q5=Remnant of Chaos", "=ds=#h3#, #w4#", "", ""};
-		{ 3, 57109, "", "=q5=Silverwind Defender", "=ds=#h3#, #w6#", "", ""};
-		{ 4, 57110, "", "=q5=Remorseless", "=ds=#h3#, #w6#", "", ""};
+		{ 3, 57109, "", "=q5=Vil'Na, The Fallen Star", "=ds=#h3#, #w6#", "", ""};
+		{ 4, 57110, "", "=q5=Feldara, The Blightborn", "=ds=#h3#, #w6#", "", ""};
 		{ 5, 57111, "", "=q5=Kal'ba, Gift of Karabor", "=ds=#h3#, #w6#", "", ""};
 		{ 6, 57114, "", "=q5=Edge of Unleashed Storms", "=ds=#h2#, #w1#", "", ""};
 		{ 7, 57112, "", "=q5=Arcanic Fury", "=ds=#w9#", "", ""};
@@ -5237,8 +5237,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["TrialoftheCrusaderLegendaries_H"] = {
 		{ 1, 57107, "", "=q5=Fel-Infused Shard", "=ds=#h3#, #w4#", "", ""};
 		{ 2, 57108, "", "=q5=Remnant of Chaos", "=ds=#h3#, #w4#", "", ""};
-		{ 3, 57109, "", "=q5=Silverwind Defender", "=ds=#h3#, #w6#", "", ""};
-		{ 4, 57110, "", "=q5=Remorseless", "=ds=#h3#, #w6#", "", ""};
+		{ 3, 57109, "", "=q5=Vil'Na, The Fallen Star", "=ds=#h3#, #w6#", "", ""};
+		{ 4, 57110, "", "=q5=Feldara, The Blightborn", "=ds=#h3#, #w6#", "", ""};
 		{ 5, 57111, "", "=q5=Kal'ba, Gift of Karabor", "=ds=#h3#, #w6#", "", ""};
 		{ 6, 57114, "", "=q5=Edge of Unleashed Storms", "=ds=#h2#, #w1#", "", ""};
 		{ 7, 57112, "", "=q5=Arcanic Fury", "=ds=#w9#", "", ""};
