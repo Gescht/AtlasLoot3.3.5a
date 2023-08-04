@@ -5230,7 +5230,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 57111, "", "=q5=Kal'ba, Gift of Karabor", "=ds=#h3#, #w6#", "", ""};
 		{ 6, 57114, "", "=q5=Edge of Unleashed Storms", "=ds=#h2#, #w1#", "", ""};
 		{ 7, 57112, "", "=q5=Arcanic Fury", "=ds=#w9#", "", ""};
-		{ 8, 57113, "", "=q5=Negotiator 5500", "=ds=#w3#", "", ""};
+		{ 8, 57113, "", "=q5=Negotiator 5500", "=ds=#w5#", "", ""};
 		Prev = "TrialoftheCrusaderPatterns_A";
 	};
 
@@ -5242,7 +5242,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 57111, "", "=q5=Kal'ba, Gift of Karabor", "=ds=#h3#, #w6#", "", ""};
 		{ 6, 57114, "", "=q5=Edge of Unleashed Storms", "=ds=#h2#, #w1#", "", ""};
 		{ 7, 57112, "", "=q5=Arcanic Fury", "=ds=#w9#", "", ""};
-		{ 8, 57113, "", "=q5=Negotiator 5500", "=ds=#w3#", "", ""};
+		{ 8, 57113, "", "=q5=Negotiator 5500", "=ds=#w5#", "", ""};
 		Prev = "TrialoftheCrusaderPatterns_H";
 	};
 
