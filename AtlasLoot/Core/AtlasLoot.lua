@@ -38,7 +38,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "11";
 local VERSION_BOSSES = "04";
-ATLASLOOT_VERSION = "|cffFF8400Exiled Ascension Loot|r";
+ATLASLOOT_VERSION = "|cffFF8400Northrend AtlasLoot|r";
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
 ATLASLOOT_CURRENT_ATLAS = {"1.17.1", "1.17.0"};
 ATLASLOOT_PREVIEW_ATLAS = {"1.17.3", "1.17.2"};
